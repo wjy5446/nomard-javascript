@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.calculator-container {
+  height: 350px;
+  width: 650px;
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template:
+    "display display display btn-reset" 60px
+    "btn-number-7 btn-number-8 btn-number-9 btn-op-plus" 60px
+    "btn-number-4 btn-number-5 btn-number-6 btn-op-minus" 60px
+    "btn-number-1 btn-number-2 btn-number-3 btn-op-product" 60px
+    "btn-number-0 btn-number-0 btn-op-equal btn-op-divide" 60px
+    / 145px 145px 145px 145px;
+  gap: 10px;
+}
+
+.display {
+  color: white;
+  font-size: 40px;
+  text-align: right;
+  align-items: center;
+  padding-top: 10px;
+}
+
+button {
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: black;
+}
+
+.btn-reset {
+  background-color: #a7aab1;
+}
+
+.btn-op-equal {
+  background-color: #363439;
+}
+
+.btn-number {
+  background-color: #363439;
+}
+
+.btn-operator {
+  background-color: #fe8e00;
+}
+
+.display {
+  grid-area: display;
+}
+
+.btn-reset {
+  grid-area: btn-reset;
+}
+
+.btn-number-9 {
+  grid-area: btn-number-9;
+}
+
+.btn-number-8 {
+  grid-area: btn-number-8;
+}
+
+.btn-number-7 {
+  grid-area: btn-number-7;
+}
+
+.btn-number-6 {
+  grid-area: btn-number-6;
+}
+
+.btn-number-5 {
+  grid-area: btn-number-5;
+}
+
+.btn-number-4 {
+  grid-area: btn-number-4;
+}
+
+.btn-number-3 {
+  grid-area: btn-number-3;
+}
+
+.btn-number-2 {
+  grid-area: btn-number-2;
+}
+
+.btn-number-1 {
+  grid-area: btn-number-1;
+}
+
+.btn-number-0 {
+  grid-area: btn-number-0;
+}
+
+.btn-op-plus {
+  grid-area: btn-op-plus;
+}
+
+.btn-op-minus {
+  grid-area: btn-op-minus;
+}
+
+.btn-op-product {
+  grid-area: btn-op-product;
+}
+
+.btn-op-divide {
+  grid-area: btn-op-divide;
+}
+
+.btn-op-equal {
+  grid-area: btn-op-equal;
+}
