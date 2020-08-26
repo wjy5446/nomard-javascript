@@ -8,6 +8,6 @@
 | :-- | :-- | :--
 | <img src="image/assignment-8.gif" height="200" /> | <img src="image/assignment-10.gif" height="200" /> | <img src="image/assignment-11.gif" height="200" /> 
 
-| assignment 8
+| assignment 14
 | :-- 
-| <img src="image/assignment-14.gif" height="200" />
+| <img src="image/assignment-14.gif" height="300" />
